@@ -10,15 +10,17 @@ You will find the most recent version and information on the Astrodynamics State
 
 You can find instructions on how to install .dm32 state files to your calculator [via the DM32 User Manual](https://technical.swissmicros.com/dm32/doc/dm32_user_manual.html#_saving_and_loading_a_state). The process is extremely simple. You can download the .zip file from this repo and inside you will find the following files:
 
-> - **20250720-16412379.bmp**
-> - **20250720-16412696.bmp**
-> - **20250721-08250004.bmp**
-> - **20250721-08252036.bmp**
-> - **20250721-08252495.bmp**
-> - **20250721-08252996.bmp**
-> - **20250721-08253492.bmp**
-> - **Astrodynamics State File Readme.pdf**
+> - **Example1.bmp**
+> - **Example2.bmp**
+> - **Example3.bmp**
+> - **Example4.bmp**
+> - **Example5.bmp**
+> - **Example6.bmp**
+> - **Example7.bmp**
+> - **StateFileREADME.pdf**
 > - **Astrodynamics.d32**
+> - **LICENCE.txt**
+> - **README.me**
 
 Consulting the Readme before use is highly recommended. The program is simple enough to use, but the readme contains useful information and reference. The file you will want to install on your calculator is **Astrodynamics.d32**.
 
