@@ -1,4 +1,4 @@
-# Astrodynamics State File v1.0
+# astrodyanmics32 Statefile v01
 
 *Made by jacober-calc for the SwissMicros DM32*
 
