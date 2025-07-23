@@ -1,14 +1,14 @@
-# astrodyanmics32 Statefile v01
+# astrodyanmics32 Statefile
 
 *Made by jacober-calc for the SwissMicros DM32*
 
 ## Note from the Author
 
-You will find the most recent version and information on the Astrodynamics State File in this GitHub repo. While the file is hosted on the [official SwissMicros forum](https://forum.swissmicros.com), we do not guarentee that any version other than what is found here is the most up to date. Additionally, any reports on issue or bugs with the program, including contributions on further developments, will only be actioned via this GitHub repo. Thank you for being interested in the Astrodynamics State File project and helping to make the state file more useful for users to come!
+You will find the most recent version and information on this statefile in this GitHub repo. While the file is hosted on the [official SwissMicros forum](https://forum.swissmicros.com), we do not guarentee that any version other than what is found here is the most up to date. Additionally, any reports on issue or bugs with the program, including contributions on further developments, will only be actioned via this GitHub repo. Thank you for being interested in the Astrodynamics State File project and helping to make the state file more useful for users to come!
 
 ## Install and Download
 
-You can find instructions on how to install .dm32 state files to your calculator [via the DM32 User Manual](https://technical.swissmicros.com/dm32/doc/dm32_user_manual.html#_saving_and_loading_a_state). The process is extremely simple. You can download the .zip file from this repo and inside you will find the following files:
+You can find instructions on how to install .dm32 statefiles to your calculator [via the DM32 User Manual](https://technical.swissmicros.com/dm32/doc/dm32_user_manual.html#_saving_and_loading_a_state). The process is extremely simple. You can download the .zip file from this repo and inside you will find the following files:
 
 > - **Example1.bmp**
 > - **Example2.bmp**
