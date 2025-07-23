@@ -4,11 +4,11 @@
 
 ## Note from the Author
 
-You will find the most recent version and information on this statefile in this GitHub repo. While the file is hosted on the [official SwissMicros forum](https://forum.swissmicros.com), we do not guarentee that any version other than what is found here is the most up to date. Additionally, any reports on issue or bugs with the program, including contributions on further developments, will only be actioned via this GitHub repo. Thank you for being interested in the Astrodynamics State File project and helping to make the state file more useful for users to come!
+You will find the most recent version and information on this Statefile in this GitHub repo. While the file is hosted on the [official SwissMicros forum](https://forum.swissmicros.com), we do not guarentee that any version other than what is found here is the most up to date. Additionally, any reports on issue or bugs with the program, including contributions on further developments, will only be actioned via this GitHub repo. Thank you for being interested in the **astrodynamics32 Statefile** project and helping to make the state file more useful for users to come!
 
 ## Install and Download
 
-You can find instructions on how to install .dm32 statefiles to your calculator [via the DM32 User Manual](https://technical.swissmicros.com/dm32/doc/dm32_user_manual.html#_saving_and_loading_a_state). The process is extremely simple. You can download the .zip file from this repo and inside you will find the following files:
+You can find instructions on how to install .dm32 Statefiles to your calculator [via the DM32 User Manual](https://technical.swissmicros.com/dm32/doc/dm32_user_manual.html#_saving_and_loading_a_state). The process is extremely simple. You can download the .zip file from this release page and inside you will find the following files:
 
 > - **Example1.bmp**
 > - **Example2.bmp**
@@ -22,11 +22,11 @@ You can find instructions on how to install .dm32 statefiles to your calculator 
 > - **LICENCE.txt**
 > - **README.me**
 
-Consulting the Readme before use is highly recommended. The program is simple enough to use, but the readme contains useful information and reference. The file you will want to install on your calculator is **Astrodynamics.d32**.
+Consulting **Readme.pdf** before use is highly recommended. The program is simple enough to use, but the readme contains useful information and reference. The file you will want to install on your calculator is **Astrodynamics.d32**.
 
-## Using the State File
+## Using the Statefile
 
-Using the program to calculate perfectly circular orbits from any main body in the Solar System (including the MOON) is really easy. The user uses a single variable (either orbit height, velocity, period, sidereal days, or circumference) to produce orbital data for the remaining variables. The state file leverages the DM32 four-line display to showcase orbital data in a clean and wildly understandable way.
+Using the program to calculate perfectly circular orbits from any main body in the Solar System (including the MOON) is really easy. The user uses a single variable (either orbit height, velocity, period, sidereal days, or circumference) to produce orbital data for the remaining variables. The Statefile leverages the DM32 four-line display to showcase orbital data in a clean and wildly understandable way.
 
 ### First Sample Problem ###
 
@@ -71,9 +71,9 @@ We can compare our results to see how accurate our program runs. The ISS has a m
 
 ## Solar System Constants
 
-The state file contains a routine program to store gravitational parameters, radii and relevant distances for planets within the Solar System and the MOON. This program can be run by the user by selecting XEQ A. The values are stored in indirect registers and are available between calculator states and are persistent with CLEAR VAR commands (but not calculator resets, which is why the program is available in the statefile to be run on reboots).
+The Statefile contains a routine program to store gravitational parameters, radii and relevant distances for planets within the Solar System and the MOON. This program can be run by the user by selecting XEQ A. The values are stored in indirect registers and are available between calculator states and are persistent with CLEAR VAR commands (but not calculator resets, which is why the program is available in the statefile to be run on reboots).
 
-There is some method to the madness of how these values have been stored in the indirect registers. Universal constants are stored in the -100 series. All other constants are stored in the -900 series. All planets are varied based on their relative position to the SUN in the Solar System (EARTH is always XX3, MARS XX4, JUPITER XX5, etc). The SUN is always XX0 and the MOON (owing to the fact that PLUTO is not present as a plantary body) is assigned XX9.
+There is some method to the madness of how these values have been stored in the indirect global registers. Universal constants are stored in the -100 series. All other constants are stored in the -900 series. All planets are varied based on their relative position to the SUN in the Solar System (EARTH is always XX3, MARS XX4, JUPITER XX5, etc). The SUN is always XX0 and the MOON (owing to the fact that PLUTO is not present as a plantary body) is assigned XX9.
 
 All gravitational constant values are stored in registers -90X with X being the main body variable outlined above. All radius are stored in registers -91X. And all distances are stored in registers -92X. Note that the distance value for the MOON is from the EARTH and not from the SUN.
 
@@ -111,11 +111,11 @@ The EARTH has an average velocity around the SUN of 29,784.8 m/s which is very n
 
 ## Recalculation Feature
 
-With the G and R values for the SUN already stored, we can run any other Initiator Program again with any other single variable and simple click R/S to use the same values again. No need to recall i or any registers again. Additionally, the EARTH and MOON values will still be available in the y-register and z-register as before.
+With the G and R values for the SUN already stored, we can run any other *Initiator Program* again with any other single variable and simple click R/S to use the same values again. No need to recall i or any registers again. Additionally, the EARTH and MOON values will still be available in the y-register and z-register as before.
 
 ## Variables and Labels Used
 
-The following variables are used by this state file:
+The following variables are used by this Statefile:
 
 > - Variable C / Circumference
 > - Variable D / Sidereal day
@@ -126,7 +126,7 @@ The following variables are used by this state file:
 > - Variable V / Orbit velocity
 > - Variable i / *If indirect register RCL is used*
 
-The following labels are used by this state file:
+The following labels are used by this Statefile:
 
 > - *Label O / Display sub-routine*
 > - *Label Z / Constant sub-routine*
@@ -139,4 +139,4 @@ The following labels are used by this state file:
 
 ## Dedication
 
-This humble state file and the tremendous (and often tedious) work that went into making it possible is dedicated to the vision and efforts of the thousands of unnamed individuals who contributed to the GEMINI and APOLLO programs culminating in landing man on the moon in the 20th century. Much of what we nerd out on and enjoy today by way of technology can be traced to their work and effort to put a man on the moon and we remain forever in their debt.
+This humble Statefile and the tremendous (and often tedious) work that went into making it possible is dedicated to the vision and efforts of the thousands of unnamed individuals who contributed to the GEMINI and APOLLO programs culminating in landing man on the moon in the 20th century. Much of what we nerd out on and enjoy today by way of technology can be traced to their work and effort to put a man on the moon and we remain forever in their debt.
