@@ -22,7 +22,7 @@ You can find instructions on how to install .dm32 Statefiles to your calculator 
 > - **LICENCE.txt**
 > - **README.me**
 
-Consulting **Readme.pdf** before use is highly recommended. The program is simple enough to use, but the readme contains useful information and reference. The file you will want to install on your calculator is **Astrodynamics.d32**.
+Consulting this **Readme.md** before use is highly recommended. The program is simple enough to use, but the readme contains useful information and reference. The file you will want to install on your calculator is **Astrodynamics.d32**.
 
 ## Using the Statefile
 
