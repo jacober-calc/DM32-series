@@ -8,21 +8,9 @@ You will find the most recent version and information on this Statefile in this 
 
 ## Install and Download
 
-You can find instructions on how to install .dm32 Statefiles to your calculator [via the DM32 User Manual](https://technical.swissmicros.com/dm32/doc/dm32_user_manual.html#_saving_and_loading_a_state). The process is extremely simple. You can download the .zip file from this release page and inside you will find the following files:
+You can find instructions on how to install .dm32 Statefiles to your calculator [via the DM32 User Manual](https://technical.swissmicros.com/dm32/doc/dm32_user_manual.html#_saving_and_loading_a_state). The process is extremely simple. You can download the .zip file from the release page from this GitHub repository.
 
-> - **Example1.bmp**
-> - **Example2.bmp**
-> - **Example3.bmp**
-> - **Example4.bmp**
-> - **Example5.bmp**
-> - **Example6.bmp**
-> - **Example7.bmp**
-> - **StateFileREADME.pdf**
-> - **Astrodynamics.d32**
-> - **LICENCE.txt**
-> - **README.me**
-
-Consulting this **Readme.md** before use is highly recommended. The program is simple enough to use, but the readme contains useful information and reference. The file you will want to install on your calculator is **Astrodynamics.d32**.
+Consulting this **Readme.md** before use is highly recommended. The program is simple enough to use, but the readme contains useful information. The file you will want to install on your calculator from the .zip file is **Astrodynamics.d32**.
 
 ## Using the Statefile
 
@@ -140,3 +128,13 @@ The following labels are used by this Statefile:
 ## Dedication
 
 This humble Statefile and the tremendous (and often tedious) work that went into making it possible is dedicated to the vision and efforts of the thousands of unnamed individuals who contributed to the GEMINI and APOLLO programs culminating in landing man on the moon in the 20th century. Much of what we nerd out on and enjoy today by way of technology can be traced to their work and effort to put a man on the moon and we remain forever in their debt.
+
+## By jacober-calc for SwissMicros DM32
+
+> - [SwissMicros Website](https://www.swissmicros.com)
+> - [DM32 product page](https://www.swissmicros.com/product/model-dm32)
+> - [SwissMicros full products page](https://www.swissmicros.com/products)
+> - [DM32 Online User Manual](https://technical.swissmicros.com/dm32/doc/dm32_user_manual.html)
+> - [SwissMicros Calculator Forum](https://forum.swissmicros.com/index.php)
+
+![jacober-calc](https://i.imgur.com/YVqd59l.png)
