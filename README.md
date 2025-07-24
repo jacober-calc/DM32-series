@@ -8,7 +8,7 @@ You will find the most recent version and information on this Statefile in this 
 
 ## Install and Download
 
-You can find instructions on how to install .dm32 Statefiles to your calculator [via the DM32 User Manual](https://technical.swissmicros.com/dm32/doc/dm32_user_manual.html#_saving_and_loading_a_state). The process is extremely simple. You can download the .zip file from the release page from this GitHub repository.
+You can find instructions on how to install .d32 Statefiles to your calculator [via the DM32 User Manual](https://technical.swissmicros.com/dm32/doc/dm32_user_manual.html#_saving_and_loading_a_state). The process is extremely simple. You can download the .zip file from the release page from this GitHub repository.
 
 Consulting this **Readme.md** before use is highly recommended. The program is simple enough to use, but the readme contains useful information. The file you will want to install on your calculator from the .zip file is **Astrodynamics.d32**.
 
